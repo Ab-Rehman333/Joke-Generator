@@ -1,0 +1,69 @@
+/* css reset  */
+
+*::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    background-color: silver;
+}
+
+.container {
+    width: 40vw;
+    background-color: white;
+    height: 30vh;
+    min-height: auto;
+    border-radius: 5px;
+    display: flex;
+    /* justify-content:  center; */
+    align-items: center;
+    flex-direction: column;
+    padding: .4rem;
+}
+
+.container>h3 {
+    color: rgb(214, 50, 179);
+    font-size: 2em;
+}
+
+.container>.btn {
+    height: 39px;
+    width: 160px;
+    border: none;
+    background-color: #2899F7;
+    border-radius: 7px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+    margin: 1rem;
+    cursor: pointer;
+}
+/* 
+.container>.btn:focus {
+    scale: 0.9;
+}
+
+.container>.btn:active {
+    scale: 0;
+} */
+
+.container>.joke {
+    color: black;
+    padding: 1rem;
+    width: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
